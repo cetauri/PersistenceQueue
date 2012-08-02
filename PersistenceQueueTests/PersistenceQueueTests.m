@@ -41,7 +41,7 @@
     int count = queue.count;
     for (int i = 0;i<count;i++){
         NSLog(@"queue : %@", [queue pop]);
-        [queue deleteOldest];
+        [queue removeOldest];
     }
 
     
