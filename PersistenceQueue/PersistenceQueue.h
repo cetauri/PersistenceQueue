@@ -11,7 +11,8 @@
 @interface PersistenceQueue : NSObject
 
 + (PersistenceQueue *)getSharedInstance;
-- (void)deleteOldest;
+- (void)removeOldest;
+- (void)removeAll;
 - (id)pop;
 - (void)push:(id)obj;
 - (int)count;

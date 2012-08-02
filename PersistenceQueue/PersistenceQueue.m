@@ -42,9 +42,15 @@ static PersistenceQueue *_queue;
     return self;
 }
 
-- (void)deleteOldest{
+- (void)removeOldest{
     @synchronized (lock) {
         [queue removeObjectAtIndex:0];
+    }
+    [self save];
+}
+- (void)removeAll{
+    @synchronized (lock) {
+        [queue removeAllObjects];
     }
     [self save];
 }
