@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF724A0915CA5E9D002B15FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF724A0815CA5E9D002B15FE /* Foundation.framework */; };
+		AF724A0E15CA5E9D002B15FE /* PersistenceQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AF724A0D15CA5E9D002B15FE /* PersistenceQueue.h */; };
+		AF724A1015CA5E9D002B15FE /* PersistenceQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AF724A0F15CA5E9D002B15FE /* PersistenceQueue.m */; };
+		AF724A1815CA5E9D002B15FE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF724A1715CA5E9D002B15FE /* SenTestingKit.framework */; };
+		AF724A1A15CA5E9D002B15FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF724A1915CA5E9D002B15FE /* UIKit.framework */; };
+		AF724A1B15CA5E9D002B15FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF724A0815CA5E9D002B15FE /* Foundation.framework */; };
+		AF724A1E15CA5E9D002B15FE /* libPersistenceQueue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF724A0515CA5E9D002B15FE /* libPersistenceQueue.a */; };
+		AF724A2415CA5E9D002B15FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF724A2215CA5E9D002B15FE /* InfoPlist.strings */; };
+		AF724A2715CA5E9D002B15FE /* PersistenceQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF724A2615CA5E9D002B15FE /* PersistenceQueueTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF724A1C15CA5E9D002B15FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7249FC15CA5E9D002B15FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF724A0415CA5E9D002B15FE;
+			remoteInfo = PersistenceQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF724A0315CA5E9D002B15FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				AF724A0E15CA5E9D002B15FE /* PersistenceQueue.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF724A0515CA5E9D002B15FE /* libPersistenceQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPersistenceQueue.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF724A0815CA5E9D002B15FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF724A0C15CA5E9D002B15FE /* PersistenceQueue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersistenceQueue-Prefix.pch"; sourceTree = "<group>"; };
+		AF724A0D15CA5E9D002B15FE /* PersistenceQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceQueue.h; sourceTree = "<group>"; };
+		AF724A0F15CA5E9D002B15FE /* PersistenceQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceQueue.m; sourceTree = "<group>"; };
+		AF724A1615CA5E9D002B15FE /* PersistenceQueueTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceQueueTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF724A1715CA5E9D002B15FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF724A1915CA5E9D002B15FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF724A2115CA5E9D002B15FE /* PersistenceQueueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PersistenceQueueTests-Info.plist"; sourceTree = "<group>"; };
+		AF724A2315CA5E9D002B15FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF724A2515CA5E9D002B15FE /* PersistenceQueueTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersistenceQueueTests.h; sourceTree = "<group>"; };
+		AF724A2615CA5E9D002B15FE /* PersistenceQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistenceQueueTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF724A0215CA5E9D002B15FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF724A0915CA5E9D002B15FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF724A1215CA5E9D002B15FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF724A1815CA5E9D002B15FE /* SenTestingKit.framework in Frameworks */,
+				AF724A1A15CA5E9D002B15FE /* UIKit.framework in Frameworks */,
+				AF724A1B15CA5E9D002B15FE /* Foundation.framework in Frameworks */,
+				AF724A1E15CA5E9D002B15FE /* libPersistenceQueue.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7249FA15CA5E9D002B15FE = {
+			isa = PBXGroup;
+			children = (
+				AF724A0A15CA5E9D002B15FE /* PersistenceQueue */,
+				AF724A1F15CA5E9D002B15FE /* PersistenceQueueTests */,
+				AF724A0715CA5E9D002B15FE /* Frameworks */,
+				AF724A0615CA5E9D002B15FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF724A0615CA5E9D002B15FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF724A0515CA5E9D002B15FE /* libPersistenceQueue.a */,
+				AF724A1615CA5E9D002B15FE /* PersistenceQueueTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF724A0715CA5E9D002B15FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF724A0815CA5E9D002B15FE /* Foundation.framework */,
+				AF724A1715CA5E9D002B15FE /* SenTestingKit.framework */,
+				AF724A1915CA5E9D002B15FE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF724A0A15CA5E9D002B15FE /* PersistenceQueue */ = {
+			isa = PBXGroup;
+			children = (
+				AF724A0D15CA5E9D002B15FE /* PersistenceQueue.h */,
+				AF724A0F15CA5E9D002B15FE /* PersistenceQueue.m */,
+				AF724A0B15CA5E9D002B15FE /* Supporting Files */,
+			);
+			path = PersistenceQueue;
+			sourceTree = "<group>";
+		};
+		AF724A0B15CA5E9D002B15FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF724A0C15CA5E9D002B15FE /* PersistenceQueue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF724A1F15CA5E9D002B15FE /* PersistenceQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF724A2515CA5E9D002B15FE /* PersistenceQueueTests.h */,
+				AF724A2615CA5E9D002B15FE /* PersistenceQueueTests.m */,
+				AF724A2015CA5E9D002B15FE /* Supporting Files */,
+			);
+			path = PersistenceQueueTests;
+			sourceTree = "<group>";
+		};
+		AF724A2015CA5E9D002B15FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF724A2115CA5E9D002B15FE /* PersistenceQueueTests-Info.plist */,
+				AF724A2215CA5E9D002B15FE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF724A0415CA5E9D002B15FE /* PersistenceQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF724A2A15CA5E9D002B15FE /* Build configuration list for PBXNativeTarget "PersistenceQueue" */;
+			buildPhases = (
+				AF724A0115CA5E9D002B15FE /* Sources */,
+				AF724A0215CA5E9D002B15FE /* Frameworks */,
+				AF724A0315CA5E9D002B15FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersistenceQueue;
+			productName = PersistenceQueue;
+			productReference = AF724A0515CA5E9D002B15FE /* libPersistenceQueue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF724A1515CA5E9D002B15FE /* PersistenceQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF724A2D15CA5E9D002B15FE /* Build configuration list for PBXNativeTarget "PersistenceQueueTests" */;
+			buildPhases = (
+				AF724A1115CA5E9D002B15FE /* Sources */,
+				AF724A1215CA5E9D002B15FE /* Frameworks */,
+				AF724A1315CA5E9D002B15FE /* Resources */,
+				AF724A1415CA5E9D002B15FE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF724A1D15CA5E9D002B15FE /* PBXTargetDependency */,
+			);
+			name = PersistenceQueueTests;
+			productName = PersistenceQueueTests;
+			productReference = AF724A1615CA5E9D002B15FE /* PersistenceQueueTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7249FC15CA5E9D002B15FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = cetauri;
+			};
+			buildConfigurationList = AF7249FF15CA5E9D002B15FE /* Build configuration list for PBXProject "PersistenceQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF7249FA15CA5E9D002B15FE;
+			productRefGroup = AF724A0615CA5E9D002B15FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF724A0415CA5E9D002B15FE /* PersistenceQueue */,
+				AF724A1515CA5E9D002B15FE /* PersistenceQueueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF724A1315CA5E9D002B15FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF724A2415CA5E9D002B15FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF724A1415CA5E9D002B15FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF724A0115CA5E9D002B15FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF724A1015CA5E9D002B15FE /* PersistenceQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF724A1115CA5E9D002B15FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF724A2715CA5E9D002B15FE /* PersistenceQueueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF724A1D15CA5E9D002B15FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF724A0415CA5E9D002B15FE /* PersistenceQueue */;
+			targetProxy = AF724A1C15CA5E9D002B15FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF724A2215CA5E9D002B15FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF724A2315CA5E9D002B15FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF724A2815CA5E9D002B15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF724A2915CA5E9D002B15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF724A2B15CA5E9D002B15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PersistenceQueue.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersistenceQueue/PersistenceQueue-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF724A2C15CA5E9D002B15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PersistenceQueue.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersistenceQueue/PersistenceQueue-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AF724A2E15CA5E9D002B15FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersistenceQueue/PersistenceQueue-Prefix.pch";
+				INFOPLIST_FILE = "PersistenceQueueTests/PersistenceQueueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AF724A2F15CA5E9D002B15FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PersistenceQueue/PersistenceQueue-Prefix.pch";
+				INFOPLIST_FILE = "PersistenceQueueTests/PersistenceQueueTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7249FF15CA5E9D002B15FE /* Build configuration list for PBXProject "PersistenceQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF724A2815CA5E9D002B15FE /* Debug */,
+				AF724A2915CA5E9D002B15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF724A2A15CA5E9D002B15FE /* Build configuration list for PBXNativeTarget "PersistenceQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF724A2B15CA5E9D002B15FE /* Debug */,
+				AF724A2C15CA5E9D002B15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF724A2D15CA5E9D002B15FE /* Build configuration list for PBXNativeTarget "PersistenceQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF724A2E15CA5E9D002B15FE /* Debug */,
+				AF724A2F15CA5E9D002B15FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7249FC15CA5E9D002B15FE /* Project object */;
+}
