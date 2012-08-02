@@ -7,7 +7,7 @@
 //
 
 #import "PersistenceQueueTests.h"
-
+#import "PersistenceQueue.h"
 @implementation PersistenceQueueTests
 
 - (void)setUp
@@ -26,7 +26,26 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in PersistenceQueueTests");
+    
+    PersistenceQueue *queue = [PersistenceQueue getSharedInstance];
+    
+    NSLog(@"queue count : %i", [queue count]);
+    STAssertTrue([queue count] == 0, nil);
+    
+    [queue push:@"aaaa"];
+    [queue push:@"bbb"];
+    [queue push:@"ccc"];
+    
+    STAssertTrue([queue count] == 3, nil);
+    
+    int count = queue.count;
+    for (int i = 0;i<count;i++){
+        NSLog(@"queue : %@", [queue pop]);
+        [queue deleteOldest];
+    }
+
+    
+    NSLog(@"queue count : %i", [queue count]);
 }
 
 @end

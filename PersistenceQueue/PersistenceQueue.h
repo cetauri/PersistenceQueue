@@ -1,13 +1,19 @@
 //
-//  PersistenceQueue.h
-//  PersistenceQueue
+// Created by cetauri on 12. 8. 2..
 //
-//  Created by cetauri on 12. 8. 2..
-//  Copyright (c) 2012년 cetauri. All rights reserved.
+// To change the template use AppCode | Preferences | File Templates.
 //
+
 
 #import <Foundation/Foundation.h>
 
+
 @interface PersistenceQueue : NSObject
 
++ (PersistenceQueue *)getSharedInstance;
+- (void)deleteOldest;
+- (id)pop;
+- (void)push:(id)obj;
+- (int)count;
+- (NSString *)description;
 @end
