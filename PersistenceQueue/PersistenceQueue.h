@@ -17,4 +17,5 @@
 - (void)push:(id)obj;
 - (int)count;
 - (NSString *)description;
+- (void)save;
 @end

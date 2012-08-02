@@ -14,7 +14,6 @@ static PersistenceQueue *_queue;
     NSObject *lock;
 }
 - (void)restore;
-- (void)save;
 - (NSString *)filePath ;
 @end
 
